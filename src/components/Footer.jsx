@@ -1,5 +1,5 @@
 import React from 'react'
-// import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone,  FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone,  FaTwitter } from "react-icons/fa"
 import "./Footer.css"
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location' >
-                        {/* <FaHome size={30} style={{ color: "white", marginRight: "2rem" ,}} /> */}
+                        <FaHome size={30} style={{ color: "white", marginRight: "2rem" ,}} />
                         <div>
                             <p>St5 / H12 Bhogiwal BhaghbanPura Lahore</p>
                             <p>Pakistan.</p>
@@ -17,12 +17,12 @@ const Footer = () => {
                     </div>
                     <div className='phone'>
                         <h4>
-                            {/* <FaPhone size={20} style={{ color: "white", marginRight: "2rem" }} /> */}
+                            <FaPhone size={20} style={{ color: "white", marginRight: "2rem" }} />
                     +923454262055</h4>
                     </div>
                     <div className='email'>
                         <h4>
-                            {/* <FaMailBulk size={20} style={{ color: "white", marginRight: "2rem" }} /> */}
+                            <FaMailBulk size={20} style={{ color: "white", marginRight: "2rem" }} />
                             umaratiq5555@gmail.com </h4>
                     </div>
                 </div>
@@ -32,9 +32,9 @@ const Footer = () => {
                     <div className='social'>
                     
                     <Link target='_blank' to="https://www.linkedin.com/in/nimz-4262055u/">
-                    {/* <FaFacebook size={30} style={{ color: "white", marginRight: "1rem" }} />
+                    <FaFacebook size={30} style={{ color: "white", marginRight: "1rem" }} />
                     <FaTwitter size={30} style={{ color: "white", marginRight: "1rem" }} />
-                    <FaLinkedin size={30} style={{ color: "white", marginRight: "1rem" }} /> */}
+                    <FaLinkedin size={30} style={{ color: "white", marginRight: "1rem" }} />
                     </Link>
 
                     </div>

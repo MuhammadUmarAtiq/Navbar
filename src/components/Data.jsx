@@ -6,18 +6,21 @@ const Data=[
         imgsrc:img1,
         title:"ReactJS Website",
         text:"Fully Responsive ReactJS Website",
-        view:"https://muhammadumaratiq.github.io/react-website/"
+        view:"https://muhammadumaratiq.github.io/react-website/",
+        source:"https://github.com/MuhammadUmarAtiq/react-website"
     },
     {
         imgsrc:img2,
         title:"Google Keep",
         text:"Keep Clone Google App",
-        view:"https://muhammadumaratiq.github.io/googlekeep/"
+        view:"https://muhammadumaratiq.github.io/googlekeep/",
+        source:"https://github.com/MuhammadUmarAtiq/googlekeep"
     },{
         imgsrc:img3,
         title:"ReactJS Website",
         text:"Fully Responsive ReactJS Website",
-        view:"https://muhammadumaratiq.github.io/react-website/"
+        view:"https://muhammadumaratiq.github.io/react-website/",
+        source:"https://github.com/MuhammadUmarAtiq/react-website"
     }
     
 ];

@@ -1,8 +1,7 @@
 import React from 'react'
-import "./ProjectCard.css"
-import { NavLink } from 'react-router-dom'
+import "./ProjectCard.css";
 
-const ProjectCard = ({img ,title, text ,view}) => {
+const ProjectCard = ({img ,title, text ,view,source}) => {
   return (
     <>
         
@@ -12,8 +11,8 @@ const ProjectCard = ({img ,title, text ,view}) => {
                         <div className='project-details'>
                                 <p>{text}</p>
                             <div className='pro-btns'>
-                                <NavLink target='_blank' to={view} className="btn"> View</NavLink>
-                                <NavLink to={view} className="btn"> Source</NavLink>
+                                <a target='_blank' href={view} className="btn"> View</a>
+                                <a target='_blank' href={source} className="btn"> Source</a>
 
                             </div>
                         </div>

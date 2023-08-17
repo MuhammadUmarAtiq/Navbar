@@ -15,7 +15,9 @@ const ProjectData = () => {
                                  img={item.imgsrc}
                                  title={item.title} 
                                  text={item.text} 
-                                 view={item.view}/>
+                                 view={item.view}
+                                  source={item.source}
+                                 />
                             </>
                     })}
                 </div>
